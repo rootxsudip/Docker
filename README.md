@@ -4,3 +4,7 @@
 * docker run --name <container_name> -it -d <image-name> [Running a image in interactive and background mode with given name]
 * docker exec -it <container_name> /bin/sh [Run docker container shell]
 * exit [Exit from docker shell]
+* docker stop <container-name>/<container-name> [Stop container from running]
+* docker start <container-name>/<container-name> [Start container]
+* docker restart <container-name>/<container-name> [Restart container]
+* docker ps -a [Show all containers (default shows just running]
